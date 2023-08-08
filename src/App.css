@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400&family=Raleway&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400&family=Playfair:wght@400;500;600;800&family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400&family=Outfit:wght@200&family=Playfair:wght@400;500;600;800&family=Poppins:wght@300&display=swap');
+body {
+  /* font-family: 'Exo', sans-serif; */
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Outfit', sans-serif !important; */
+  font-family: DM Sans,sans-serif!important;
+  overflow-x: hidden !important;
+}
+h1,h2,h3,h4{
+  font-family: DM Sans,sans-serif!important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --mainColor: #E32D5D;
+  --textColor: rgb(17, 17, 56);
+  --backGroundColor:#404041,
+}
+h1 {
+  color: var(--textColor);
+}
+p {
+  font-family: DM Sans,sans-serif!important;
+}
+.button{
+  background-color:white ;
+  border-radius: 18px;
+  border: none;
+  padding: 1.2% 2%;
+  color: #E32D5D;
+}
+.button:hover {
+color: black;
+cursor: pointer;
+}
+h1,h2,h3,h4{
+  font-family: DM Sans,sans-serif!important;
+}
+h2{
+  font-size: 24px;
+}
+h3{
+ font-size: 20px;
+}
+
+/* Change the background color of the toast container for warning messages */
+.Toastify__toast-container.Toastify__toast-container--top-right.Toastify__toast-container--warning {
+  background-color: #0e8a0c !important;
+  color: #E32D5D !important;
+  --toastify-color-warning:blue;
+      --toastify-icon-color-warning: var(--toastify-color-warning);
+}
+
+/* Change the text color of the toast message for warning messages */
+.Toastify__toast.Toastify__toast--warning {
+  color: #b80f0f !important;
+  
+}
+

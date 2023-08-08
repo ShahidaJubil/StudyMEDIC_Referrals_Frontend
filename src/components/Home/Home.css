@@ -1,0 +1,91 @@
+.HomeContents {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  background-color: rgb(0, 0, 28);
+}
+.imageHome img {
+  width: 100%;
+}
+.content h3 {
+  padding: 7%;
+  line-height: 1.9rem;
+  color: white;
+}
+.content .button {
+  margin-left: 4%;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+/* login area */
+.loginOptions {
+  margin: 0% 5% 0% 3.5%;
+}
+
+/* HOME POINTS */
+.homePoints {
+  padding-left: 5%;
+  /* margin-bottom: -10rem; */
+}
+.homePoints li {
+  line-height: 2.5rem;
+}
+
+.imageHome {
+  margin: 25px;
+  margin-left: 0px;
+}
+.homePoints img {
+  height: 35% !important;
+}
+.grid{
+  height: fit-content;
+}
+.grid img{
+  width:70%;
+  height: 5rem;
+}
+.arrowDown{
+
+ font-size: 3rem;
+}
+.grid{
+  text-align: center !important;
+}
+@media screen and (max-width:750px) {
+  .content .button {
+    padding: .5%;
+    font-size: .5rem;
+  }
+  .content h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:500px) {
+  .HomeContents {
+    grid-template-columns: 1fr;
+  }
+  .imageHome img {
+    height: 80%;
+  }
+  .imageHome {
+    margin-bottom: -19px;
+    margin-left: 25px;
+  }
+  .content h3 {
+    text-align: center;
+    padding-bottom: 0%;
+  }
+  .content{
+    text-align: center;
+  }
+  .content .button {
+    margin-left: 4%;
+    padding: 1.6%;
+    border-radius: 5px;
+  }
+}
+
+.earnImage{
+  width: 44% !important;
+}

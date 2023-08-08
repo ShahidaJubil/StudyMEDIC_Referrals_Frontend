@@ -1,0 +1,371 @@
+.grid1 {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(132, 208, 219, 0.23) 0px 3px 6px;
+  height: 130vh;
+  padding-top: 8% !important;
+  margin-top: -6% !important;
+}
+.mynavlink img {
+  background-color: rgb(108, 109, 110);
+  width: 50%;
+  border-radius: 50%;
+  margin: 6% 18%;
+}
+.taptxtleft {
+  color: rgb(111, 110, 110) !important;
+
+}
+
+.dividerHeader {
+  height: 5px !important;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(132, 208, 219, 0.23) 0px 3px 6px;
+}
+.custom-pills .nav-link.active,
+.custom-pills .nav-link:focus {
+  background-color: #e8e8ef;
+}
+.custom-pills {
+  margin: 0px 15px;
+}
+
+.custom-pills .nav-link.active .taptxtleft {
+  color: rgba(5, 46, 148, 0.849)  !important; /* Active text color */
+
+}
+
+/* Form CSS */
+.input {
+  width: 90%;
+  height: 20%;
+  padding: 2px;
+}
+.ReferForm {
+  text-align: center;
+  margin: 2% 20%;
+  padding: 3%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.referSubmit {
+  border-radius: 15px !important;
+  width: 60%;
+  padding: 1% !important;
+}
+/* .referCancel {
+  width: 60%;
+  padding: 2% !important;
+  border: 1px solid var(--mainColor) !important;
+  color: var(--mainColor) !important;
+} */
+
+/* profile */
+
+.DashboardIcons {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.buttonGrid {
+  text-align: center;
+  color: white;
+}
+
+/* Wallet */
+/* .wallet {
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 3%;
+} */
+.list,
+.points,
+.ReferralsDiv {
+  background-color: white;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(132, 208, 219, 0.23) 0px 3px 6px;
+}
+/* .list {
+  height: 90vh;
+} */
+/* .points {
+  height: 40vh !;
+} */
+/* .list h4 {
+  text-align: center;
+} */
+.referrals {
+  font-size: 0.8rem;
+  padding-left: 1.4rem;
+}
+.listIcon {
+  color: rgb(30, 51, 67);
+}
+.badgeIcon {
+  font-size: 5rem !important;
+  color: rgb(238, 44, 130);
+}
+.coin {
+  margin-left: 5rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: rgb(238, 44, 130);
+}
+.divider {
+  font-size: 12rem !important;
+  color: black;
+}
+.ReferralsDiv {
+  height: 90vh !important;
+  overflow-y: scroll;
+}
+.ReferralsDiv::-webkit-scrollbar{
+  display: none !important;
+}
+.dropdownGroup {
+  border: none;
+  background-color: none;
+  text-align: center;
+  justify-content: center;
+}
+.forms {
+  display: grid;
+  grid-template-columns: 50% 30%;
+}
+.buttonstyle {
+  border-radius: 20px !important;
+}
+.points{
+  height: max-content !important;
+}
+@media screen and (max-width: 900px) {
+  .grid1 {
+    height: max-content;
+    padding-bottom: 5%;
+  }
+  .wallet {
+    grid-template-columns: 1fr;
+  }
+  .grid2{
+    margin: 4% !important;
+  }
+  .profile {
+    width: 90%;
+    margin-left: 5%;
+    height: max-content;
+  }
+  .mynavlink img {
+    width: 35%;
+    margin: 6% 31%;
+  }
+  .buttonstyle {
+    margin-top: 10px;
+  }
+  .ReferForm {
+    margin: 2% 6%;
+  }
+  /* .points,
+  .walletDiv3 {
+    padding: 8%;
+    margin: 4%;
+  } */
+  .walletDiv3 {
+    width: 90%;
+    /* margin: 15% 5%; */
+    height: max-content !important;
+    padding: 5% 3% 10% 6%;
+  }
+  /* .list {
+    height: max-content;
+    margin: 4%;
+  } */
+  .profileUpdateForm {
+    margin-left: 3% !important;
+  }
+  .profileDiv {
+    grid-template-columns: 1fr !important;
+  margin: 20px;
+  }
+}
+
+/* Sweet Alert Styles */
+
+.swal2-container {
+  z-index: 9999 !important;
+}
+.swalTitle {
+
+  font-size: 18px;
+}
+.swalConfirmButton {
+  background-color: var(--mainColor) !important;
+
+  padding: 10% 92% !important;
+}
+@media screen and (max-width:540px){
+  /* .linkDiv p{
+   overflow-x:scroll ;
+  } */
+  .referralLinkWrapper {
+    white-space: pre-wrap; /* Allow the referral link to wrap within the container */
+    word-break: break-all; /* Break the link at any character if needed */
+    overflow-x: auto; /* Enable horizontal scrolling when content exceeds the container width */
+    margin: 10px 0; /* Add some margin for spacing */
+  }
+}
+/* ========================Table Styles========================== */
+
+.referTable {
+  border: 0.2px solid rgb(230, 230, 230);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
+}
+.pagination{
+  justify-content: center !important;
+}
+.pagination button{
+  color: rgba(5, 46, 148, 0.849) !important;
+  border: none;
+  padding: 1%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+justify-content: center;
+margin: .3%;
+}
+.tableHeading th{
+  color: rgba(5, 46, 148, 0.849) !important;
+  font-weight: 600;
+}
+.noReferrals{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding:20px !important; 
+  text-align: center;
+}
+/* ================ Form ==========================*/
+.LinkButton {
+  background-color: var(--mainColor);
+  color: white;
+  border: none;
+  padding: 1%;
+  border-radius: 3px;
+}
+.referContent{
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 5%;
+}
+.contentPoints{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+padding: 3%;
+margin-top: 2%;
+
+}
+.referVideo video{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.contentPoints li{
+  line-height: 1.7rem !important;
+}
+.linkDiv {
+  /* display: flex;
+  gap: 8%; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2%;
+
+}
+
+.copy {
+  color: var(--mainColor);
+  font-size: 1.5rem;
+}
+.copy:hover,
+.whatsappShareButton:hover {
+  cursor: pointer;
+}
+.whatsappShareButton {
+  color: green;
+  font-size: 1.5rem;
+}
+.linkDiv span:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width:1200px){
+  .referContent{
+    grid-template-columns: 1fr;
+    gap: 3%;
+  }
+}
+/*========================= Profile ===================================*/
+
+.profileDiv {
+  display: grid;
+  grid-template-columns: 30% 70%;
+gap: 3%;
+
+}
+
+.profileImage {
+  text-align: center;
+}
+.profileImage img{
+  width: 60% !important;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.profileDetails p{
+  text-align: left;
+}
+
+.profile {
+  background-color: white;
+  padding:0% 13%;
+  width: fit-content;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(132, 208, 219, 0.23) 0px 3px 6px;
+}
+
+.profileEdit {
+  transform: translate(500px, -160px) !important;
+}
+.profileIcon{
+  color: var(--mainColor);
+  font-size: 15px !important;
+}
+.ReferralForm h3{
+  font-family: 'Outfit', sans-serif;
+}
+.uk-legend{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/*================================== Referral form =======================================*/
+
+.ReferralForm{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+  rgba(132, 208, 219, 0.23) 0px 3px 6px;
+  padding: 4%;
+}
+/* remove the border */
+.noBorder .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+} 
+.formPopup{
+  color: blue;
+}
+
+
+.error-text{
+  color: rgb(255, 58, 58);
+  font-size: 0.9rem;
+}
+
